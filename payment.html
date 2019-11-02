@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>payment</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <div class="m-0 mt-5 mr-5">
+                    <div>
+                        <a href="baidu.com">
+                            <p class="font-weight-normal mb-1" style="font-size: 1.75rem;">Pacific Bright</p>
+                        </a>
+                        <nav aria-label="breadcrumb" style="margin: 0; padding: 0;">
+                            <ol class="breadcrumb m-0 p-0" style="background: #fff;">
+                                <li class="breadcrumb-item"><a href="#"><small>information</small></a></li>
+                                <li class="breadcrumb-item"><a href="#"><small>Shipping</small></a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><small>Payment</small></li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <form class="mt-4">
+                        <div class="form-group">
+                            <label for="exampleInputInformation" class="mb-3">Contact information</label>
+                            <input type="password" class="form-control" id="exampleInputInformation"
+                                placeholder="Email">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Keep me up to date on news and exclusive
+                                offers</label>
+                        </div>
+                    </form>
+                    <div class="mt-4 pb-5" style="border-bottom: 1px solid #e5e5e5;">
+                        <h2 class=""><small>Shipping address</small></h2>
+                        <form>
+                            <div class="form-row mt-4 mb-3">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="inputCompany"
+                                    placeholder="Company(optional)">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="inputApartment"
+                                    placeholder="Apartment,suite,etc.(optional)">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="inputCity" placeholder="City">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="inputState">Country</label>
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputState">Province</label>
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputState"> -- </label>
+                                    <input type="text" class="form-control" id="inputPostal" placeholder="Postal code">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="inputPhone" placeholder="Phone(optional)">
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Save this information for next time
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg ">Continue to shipping</button>
+                        </form>
+                    </div>
+                    <p class="mt-2"><small>All rights reserved Pacific Bright</small></p>
+                </div>
+            </div>
+            <div class="col-5 bg-light">
+                <div class="m-0 mt-5 ml-5" style="background: snow;">
+                    <table class="table table-borderless">
+                        <thead style="border-bottom: 1px solid #e5e5e5;">
+                            <tr>
+                                <th class="pr-0" style="width: 64px;"><img class="col-4.5" src="./img/20191028164010.png"
+                                    style="width: 64px; height: 64px;border: 1px solid #e5e5e5;border-radius: 10%;" alt=""></th>
+                                <th class="pl-2 text-left align-middle" colspan="3"> Circle Block Notepad</th>
+                                <th class="text-right align-middle"><span class="">$8.00</span></th>
+                            </tr>
+                        </thead>
+                        <tbody style="border-bottom: 1px solid #e5e5e5;">
+                            <tr>
+                                <th class="align-middle text-left pb-0 mb-0">
+                                    <span><small>Subtotal</small></span>
+                                </th>
+                                <td class="align-middle text-right pb-0 mb-0" colspan="4">
+                                    <span>$8.00</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="align-middle text-left pt-0 mt-0">
+                                    <span><small>Shipping</small></span>
+                                </th>
+                                <td class="align-middle text-right pt-0 mt-0" colspan="4">
+                                    <span><small>Calculated at next step</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th class="align-middle text-left pb-0 mb-0">
+                                    <span>Total</span>
+                                </th>
+                                <td class="align-middle text-right pb-0 mb-0" colspan="4">
+                                        <span><small class="text-center mr-1">USD</small>$8.00</span>
+                                    </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
